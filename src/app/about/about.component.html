@@ -1,0 +1,7 @@
+<form #accountForm="ngForm">
+  <label>Name</label>
+    <input type="text" [(ngModel)]= "username" name="username"><br/>
+  <label>Password</label>
+    <input type="password" [(ngModel)]= "password" name="password">
+    <button (click) ="addAccount()" >Submit</button>
+</form>
